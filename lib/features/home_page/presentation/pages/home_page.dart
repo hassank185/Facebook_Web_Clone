@@ -14,9 +14,13 @@ class HomePage extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 15,vertical: 20),
       child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           LeftSideMenu(),
-          CenterMenu()
+          SizedBox(width: 30,),
+          Expanded(child: CenterMenu()),
+          SizedBox(width: 30,),
+          LeftSideMenu(),
 
         ],
       ),
