@@ -18,7 +18,7 @@ class LeftSideMenuWidget extends StatelessWidget {
           children: [
             CircleAvatar(radius: 20,),
             SizedBox(width: 10),
-            Text("Muhammad Hassan",style: TextStyle(fontSize: 17,fontWeight: FontWeight.bold),)
+            Text("Muhammad Hassan",style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold),)
           ],
         ),
         SizedBox(height: 18,),

@@ -97,7 +97,8 @@ class PostCardWidget extends StatelessWidget {
                 ),
                 Padding(
                   padding: const EdgeInsets.symmetric(
-                      horizontal: 10
+                      horizontal: 10,
+                    vertical: 10
                   ),
               child: Column(
                 children: [
