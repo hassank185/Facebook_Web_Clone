@@ -17,23 +17,27 @@ class RightMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 240,
-      child: Column(
-        children: [
-          SponsoredWidget(),
-          SizedBox(height: 10,),
-          Divider(),
-          SizedBox(height: 10,),
-          PagesProfileWidget(),
-          SizedBox(height: 10,),
-          Divider(),
-          SizedBox(height: 10,),
-          BirthDayWidget(),
-          SizedBox(height: 10,),
-          Divider(),
-          SizedBox(height: 10,),
-          ContactMessengerWidget(),
+      child: SingleChildScrollView(
+        child: Column(
 
-        ],
+          children: [
+            SizedBox(height: 20,),
+            SponsoredWidget(),
+            SizedBox(height: 10,),
+            Divider(),
+            SizedBox(height: 10,),
+            PagesProfileWidget(),
+            SizedBox(height: 10,),
+            Divider(),
+            SizedBox(height: 10,),
+            BirthDayWidget(),
+            SizedBox(height: 10,),
+            Divider(),
+            SizedBox(height: 10,),
+            ContactMessengerWidget(),
+            SizedBox(height: 20,),
+          ],
+        ),
       ),
     );
   }

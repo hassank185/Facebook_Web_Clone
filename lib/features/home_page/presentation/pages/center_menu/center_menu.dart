@@ -13,12 +13,16 @@ class CenterMenu extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        TopCenterCardWidget(onNavItemTapped: onNavItemTapped,selectedIndex: selectedIndex),
-        CreatePostCardWidget(),
-        CenterMenuSinglePostWidget()
-      ],
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+SizedBox(height: 20,),
+          TopCenterCardWidget(onNavItemTapped: onNavItemTapped,selectedIndex: selectedIndex),
+          CreatePostCardWidget(),
+          CenterMenuSinglePostWidget(),
+          SizedBox(height: 20,),
+        ],
+      ),
     );
   }
 }

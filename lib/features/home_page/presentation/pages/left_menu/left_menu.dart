@@ -13,19 +13,24 @@ class LeftSideMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 240,
-      child: Column(
-        children: [
-          LeftSideMenuWidget(),
-          SizedBox(height: 15,),
-          Divider(
-            color: Colors.black26,
-          ),
-          SizedBox(height:10,),
-          LeftSideNavBarShorCutWidget(),
-          SizedBox(height: 60,),
-          FooterWidget()
+      child: SingleChildScrollView(
+        child: Column(
 
-        ],
+          children: [
+            SizedBox(height: 20,),
+            LeftSideMenuWidget(),
+            SizedBox(height: 15,),
+            Divider(
+              color: Colors.black26,
+            ),
+            SizedBox(height:10,),
+            LeftSideNavBarShorCutWidget(),
+            SizedBox(height: 60,),
+            FooterWidget(),
+            SizedBox(height: 20,),
+
+          ],
+        ),
       ),
     );
   }

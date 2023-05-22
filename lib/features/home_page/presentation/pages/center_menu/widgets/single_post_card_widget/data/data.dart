@@ -23,7 +23,7 @@ class PostListClass {
       userDesc: "Digital Banking Officer",
       date: "2d",
       profileUrl: "assets/profile1.jpg",
-      postImg: "assets/post_1.png",
+      postImg: "assets/fb_post_1.jpg",
       postDesc: "I love these equations.\n\nThis has been a beacon in my life for a very long time,\nespecially when long-term goals can look daunting.Just focusing on short-term steps and consistency can make me feel happier and more productive.The impact of making small consistent efforts throughout the year is presented well by math.Credit: James Clear (Atomic Habits)For downloadable ML/ AI/ Data Science learning materials, please check my previous posts."
     ),
     PostEntity(
@@ -31,7 +31,7 @@ class PostListClass {
       userDesc: "Search Engine Optim...",
       date: "12d",
       profileUrl: "assets/profile2.jpg",
-      postImg: "assets/post_2.jpg",
+      postImg: "assets/fb_post_2.png",
         postDesc: "I love these equations.\n\nThis has been a beacon in my life for a very long time,\nespecially when long-term goals can look daunting.Just focusing on short-term steps and consistency can make me feel happier and more productive.The impact of making small consistent efforts throughout the year is presented well by math.Credit: James Clear (Atomic Habits)For downloadable ML/ AI/ Data Science learning materials, please check my previous posts."
     ),
     PostEntity(
@@ -39,7 +39,7 @@ class PostListClass {
       userDesc: "Flutter Developer co-Fo...",
       date: "41d",
       profileUrl: "assets/profile3.jpg",
-      postImg: "assets/post_3.jpg",
+      postImg: "assets/fb_post_3.jpg",
         postDesc: "I love these equations.\n\nThis has been a beacon in my life for a very long time,\nespecially when long-term goals can look daunting.Just focusing on short-term steps and consistency can make me feel happier and more productive.The impact of making small consistent efforts throughout the year is presented well by math.Credit: James Clear (Atomic Habits)For downloadable ML/ AI/ Data Science learning materials, please check my previous posts."
 
     ),
@@ -48,7 +48,7 @@ class PostListClass {
       userDesc: "Flutter Developer Fou...",
       date: "32d",
       profileUrl: "assets/profile4.jpg",
-      postImg: "assets/post_4.jpg",
+      postImg: "assets/fb_post_5.png",
         postDesc: "I love these equations.\n\nThis has been a beacon in my life for a very long time,\nespecially when long-term goals can look daunting.Just focusing on short-term steps and consistency can make me feel happier and more productive.The impact of making small consistent efforts throughout the year is presented well by math.Credit: James Clear (Atomic Habits)For downloadable ML/ AI/ Data Science learning materials, please check my previous posts."
     ),
      ];

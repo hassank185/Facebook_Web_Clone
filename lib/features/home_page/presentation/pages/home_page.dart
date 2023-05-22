@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+      padding: const EdgeInsets.symmetric(horizontal: 15),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -20,13 +20,7 @@ class HomePage extends StatelessWidget {
           SizedBox(width: 15),
           Expanded(
             flex: 8,
-            child: SingleChildScrollView(
-              child: Column(
-                children: [
-                  CenterMenu(),
-                ],
-              ),
-            ),
+            child: CenterMenu(),
           ),
           SizedBox(width: 15),
           Expanded(

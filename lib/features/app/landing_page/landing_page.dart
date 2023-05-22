@@ -1,6 +1,10 @@
+import 'package:facebook_web_clone/features/gaming_page/gaming_page.dart';
 import 'package:facebook_web_clone/features/global/theme/theme.dart';
+import 'package:facebook_web_clone/features/groups_page/groups_page.dart';
 import 'package:facebook_web_clone/features/home_page/presentation/pages/home_page.dart';
+import 'package:facebook_web_clone/features/market_place_page/market_place_page.dart';
 import 'package:facebook_web_clone/features/navbar/nav_bar.dart';
+import 'package:facebook_web_clone/features/watch_page/watch_page.dart';
 import 'package:flutter/material.dart';
 
 class LandingPage extends StatefulWidget {
@@ -27,18 +31,18 @@ class _LandingPageState extends State<LandingPage> {
       case 0:
         selectedPage = HomePage();
         break;
-    // case 1:
-    //   selectedPage = MyNetWorkPage();
-    //   break;
-    // case 2:
-    //   selectedPage = JobsPage();
-    //   break;
-    // case 3:
-    //   selectedPage = MessagingPage();
-    //   break;
-    // case 4:
-    //   selectedPage = NotificationPage();
-    //   break;
+    case 1:
+      selectedPage = WatchPage();
+      break;
+    case 2:
+      selectedPage = MarketPlacePage();
+      break;
+    case 3:
+      selectedPage = GroupsPage();
+      break;
+    case 4:
+      selectedPage = GamingPage();
+      break;
       default:
         selectedPage = HomePage();
     }
@@ -54,9 +58,7 @@ class _LandingPageState extends State<LandingPage> {
                 selectedIndex: _selectedIndex,
               ),
               Expanded(
-                child: SingleChildScrollView(
-                  child: selectedPage,
-                ),
+                child: selectedPage,
               ),
             ],
           ),
