@@ -1,16 +1,5 @@
-# facebook_web_clone
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div data-target="readme-toc.content" class="Box-body px-5 pb-5">
+            <article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-flutter-chatgpt-with-clean-architecture" class="anchor" aria-hidden="true" href="#flutter-chatgpt-with-clean-architecture"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Flutter Facebook Clone with Clean Architecture</h1>
+<h3 tabindex="-1" dir="auto"><a id="user-content-show-some-----and-star-the-repo-to-support-the-project" class="anchor" aria-hidden="true" href="#show-some-----and-star-the-repo-to-support-the-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Show some  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/2c77f2911f183aaa169004f4ff8339b3dd6c89cf0dd3c3e9be142019cee84064/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f69636f6e732f656d6f6a692f756e69636f64652f323736342e706e67"><img src="https://camo.githubusercontent.com/2c77f2911f183aaa169004f4ff8339b3dd6c89cf0dd3c3e9be142019cee84064/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f69636f6e732f656d6f6a692f756e69636f64652f323736342e706e67" width="30" height="30" data-canonical-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" style="max-width: 100%;"></a>   and star the repo to support the project</h3>
+<br>
+![asd](https://github.com/hassank185/Facebook_Web_Clone/assets/71763166/4ebddc72-e354-4e81-8de3-8713a2ae1c41)
